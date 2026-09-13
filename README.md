@@ -93,7 +93,7 @@ Dataset berisi **15.523 gambar** yang terbagi menjadi:
 
 ### Perbandingan Distribusi Train vs Test
 
-![Distribusi Kelas](assets/class_distribution.png)
+![Distribusi Kelas](perbandingan.png)
 
 > **Insight:** Distribusi train dan test **proporsional** (mirror satu sama lain), menandakan split dataset dilakukan secara stratified — bagus untuk evaluasi yang representatif. Namun, dataset sangat **imbalanced**:
 > - Kelas terbanyak: `Unknown_Normal` (**1.651** gambar)
@@ -135,7 +135,7 @@ Dataset berisi **15.523 gambar** yang terbagi menjadi:
 
 ## 🎯 Confusion Matrix
 
-![Confusion Matrix](assets/confusion_matrix.png)
+![Confusion Matrix](confusionMatrix.png)
 
 ### Cara Baca
 
