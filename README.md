@@ -27,7 +27,7 @@ Aplikasi web untuk deteksi dini **22 jenis penyakit kulit** dari citra foto meng
 
 ## 🎬 Demo
 
-![Demo DermaAI](demo.gif)
+![Demo GIF](demo.gif)
 
 > Demo di atas menunjukkan alur penggunaan aplikasi: upload/ambil foto kulit → model memproses gambar → hasil prediksi kelas penyakit beserta tingkat keyakinannya ditampilkan.
 
