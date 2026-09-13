@@ -13,6 +13,7 @@ Aplikasi web untuk deteksi dini **22 jenis penyakit kulit** dari citra foto meng
 
 ## 📑 Daftar Isi
 
+- [Demo](#-demo)
 - [Tentang Model](#-tentang-model)
 - [Dataset & Distribusi Kelas](#-dataset--distribusi-kelas)
 - [Confusion Matrix](#-confusion-matrix)
@@ -21,6 +22,14 @@ Aplikasi web untuk deteksi dini **22 jenis penyakit kulit** dari citra foto meng
 - [Struktur Proyek](#-struktur-proyek)
 - [22 Kelas Penyakit](#-22-kelas-penyakit)
 - [Troubleshooting](#-troubleshooting)
+
+---
+
+## 🎬 Demo
+
+![Demo DermaAI](assets/demo.gif)
+
+> Demo di atas menunjukkan alur penggunaan aplikasi: upload/ambil foto kulit → model memproses gambar → hasil prediksi kelas penyakit beserta tingkat keyakinannya ditampilkan.
 
 ---
 
@@ -298,6 +307,7 @@ web/
 ├── requirements.txt            # Dependencies
 ├── model_kulit_terbaik.h5      # Model terlatih (Keras 2.15 → Keras 3 compat)
 ├── assets/
+│   ├── demo.gif                 # GIF demo penggunaan aplikasi
 │   ├── class_distribution.png  # Chart distribusi train vs test
 │   └── confusion_matrix.png    # Confusion matrix hasil evaluasi
 ├── scripts/
